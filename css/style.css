@@ -1,0 +1,117 @@
+@import url('reset.css');
+
+
+
+.header{
+    background: rgb(180, 161, 180);
+    color: bisque;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.header .container {
+    font-size: 0;
+}
+
+.container { 
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo, .menu, .search {
+    font-size: 25px;
+    display: inline-block;
+}
+.logo, .search {
+    width: 100px;
+}
+
+.search button{
+    width: 100%;
+    padding: 10px 15px;
+    /* margin: auto 0; */
+    border-radius: 4px;
+    background: transparent;
+    font-size: 25px;
+    
+}
+
+.menu {
+    font-size: 0;
+    width: 1000px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 25px;
+}
+.menu li + li {
+    margin-left: 30px;
+}
+
+.menu li a {
+    color: rgb(63, 22, 59);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu li a.active {
+    color: brown;
+}
+
+
+
+/* TABLE _________________________________ */
+
+
+
+
+
+.table {
+    width: 1000px; 
+    margin: 0px auto; 
+    padding: 15px;
+    }
+
+.table_one, tr, td {
+    border: 3px solid black;
+    padding: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
+    .captin {
+      
+    }
+     
+.t_color_1 {
+    background: gray;
+    }
+    
+.t_color_2{
+        background: rgb(96, 121, 7);
+    }
+    
+    .t_color_3{
+    background: rgb(10, 70, 10);
+    }
+    
+    .t_color_4{
+        background: greenyellow;
+    }
+    
+    .t_color_5{
+        background: orange;
+    }
+    
+    .t_color_6{
+        background: blue;
+    }
+
+    .table_a a {
+        color: rgb(63, 22, 59);
+        text-decoration: none;
+        text-transform: uppercase; 
+        font-size: 25px;
+        }
