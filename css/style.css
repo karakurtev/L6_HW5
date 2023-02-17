@@ -115,6 +115,9 @@ p + p {
     overflow: hidden;
 }
 
+.card_text a {
+    font-size: 20px;
+}
 
 /* imagin card */
 
