@@ -209,7 +209,13 @@ p + p {
     .float_box {
         background: black;
         margin: 50px auto;
+        font-size: 0;
     }
+    .float_box_in {
+        display: inline-block;
+    
+    }
+    
         
     .floa-a{
         background: green;
@@ -219,9 +225,24 @@ p + p {
 	    float: left
     }
 
-    .clearfix:after {
+    .floa-b {
+        background: orange;
+	    width: 800px;
+        height: 200px;
+	    outline: 1px solid black;
+	    float: left
+    }
+    .floa-c {
+        background: lightblue;
+	    width: 400px;
+        height: 133px;
+	    outline: 1px solid black;
+	    float: right;
+    }
+
+    .clearfix :after {
         content: " ";
-        clear: left;
+        clear: both;
         display: block;
     }
 
