@@ -206,20 +206,78 @@ p + p {
 
         /*      FLOAT___________________________________________ */
 
+    .float_box {
+        background: black;
+        margin: 50px auto;
+        font-size: 0;
     
-    .float {
-        
     }
-    .float-a{
+
+    .outfloat {
+        margin-bottom: 50px;
+    }
+    
+        
+    .floa-a{
         background: green;
 	    width: 400px;
         height: 400px;
 	    outline: 1px solid black;
-        float: left;
+	    float: left
     }
-    
-    .clearfix ::after {
-        content: '';
+
+    .floa-b {
+        background: orange;
+	    width: 800px;
+        height: 200px;
+	    outline: 1px solid black;
+	    float: left
+    }
+    .floa-c {
+        background: lightblue;
+	    width: 400px;
+        height: 133px;
+	    outline: 1px solid black;
+	    float: right;
+    }
+
+    .floa-1{
+        background: blue;
+	    width: 800px;
+        height: 200px;
+	    outline: 1px solid black;
+	    float: right; 
+    }
+
+    .floa-2{
+        background: rgb(224, 6, 199);
+	    width: 400px;
+        height: 400px;
+	    outline: 1px solid black;
+	    float: left; 
+    }
+
+    .floa-3{
+        background: rgb(226, 27, 153);
+	    width: 400px;
+        height: 200px;
+	    outline: 1px solid black;
+	    float: left; 
+    }
+
+    .floa-4{
+        background: yellow;
+	    width: 400px;
+        height: 100px;
+	    outline: 1px solid black;
+	    float: right; 
+    }
+
+
+ 
+
+    .clearfix :after {
+        content: " ";
         clear: both;
         display: block;
     }
