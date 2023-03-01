@@ -43,7 +43,7 @@ display: block;
     background: transparent;
     font-size: 25px; 
     cursor: pointer; 
-    
+
 }
 
 .menu {
@@ -274,13 +274,52 @@ p + p {
 	    float: right; 
     }
 
-
- 
-
     .clearfix :after {
         content: " ";
         clear: both;
         display: block;
     }
 
+    /* ------ HW 8 ------------*/
+
+    .galery {
+        max-width:1000px;
+
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .galery img {
+        ;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 3%;
+        box-shadow: 0px 1px 8px 3px rgb(81, 16, 16);
+    }
+    
+    
+    .galery-text {
+        width: 100%;
+        height: 50%;
+        border-radius: 3%;
+        overflow: hidden;
+        text-align: justify;
+       
+        background: rgba(0,0,0,0.5);
+        z-index: 1;
+        position: absolute;
+        top: 25%;
+        left: 0;
+        display: none;
+    }
+    
+    .p-text {
+     font-size: 30px;
+    color: red;
+    }
+    .galery:hover .galery-text {
+            display: block;
+    }
 
