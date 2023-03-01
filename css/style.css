@@ -147,7 +147,7 @@ p + p {
 
     background: rgb(180, 161, 180);
     color: bisque;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center ;
 }
 
@@ -208,8 +208,7 @@ p + p {
         /*      FLOAT___________________________________________ */
 
     .float_box {
-        background: black;
-        margin: 50px auto;
+        /* margin: 50px auto; */
         font-size: 0;
     
     }
@@ -274,7 +273,7 @@ p + p {
 	    float: right; 
     }
 
-    .clearfix :after {
+    .clearfix::after {
         content: " ";
         clear: both;
         display: block;
